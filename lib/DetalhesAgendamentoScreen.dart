@@ -246,7 +246,7 @@ class _DetalhesAgendamentoScreenState extends State<DetalhesAgendamentoScreen> {
                 });
                 Navigator.pop(context);
                 Navigator.pop(
-                    context, true); // Retorna true para indicar alteração
+                    context, true); 
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
                       content: Text('Status alterado para Pendente')),
@@ -263,7 +263,7 @@ class _DetalhesAgendamentoScreenState extends State<DetalhesAgendamentoScreen> {
                 });
                 Navigator.pop(context);
                 Navigator.pop(
-                    context, true); // Retorna true para indicar alteração
+                    context, true); 
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
                       content: Text('Status alterado para Confirmado')),
@@ -280,7 +280,7 @@ class _DetalhesAgendamentoScreenState extends State<DetalhesAgendamentoScreen> {
                 });
                 Navigator.pop(context);
                 Navigator.pop(
-                    context, true); // Retorna true para indicar alteração
+                    context, true); 
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
                       content: Text('Status alterado para Cancelado')),
