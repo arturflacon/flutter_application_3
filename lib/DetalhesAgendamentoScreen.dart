@@ -316,9 +316,9 @@ class _DetalhesAgendamentoScreenState extends State<DetalhesAgendamentoScreen> {
             onPressed: () {
               DadosTemporarios.agendamentos
                   .removeWhere((item) => item['id'] == agendamento['id']);
-              Navigator.pop(context); // Fecha o diálogo
+              Navigator.pop(context); 
               Navigator.pop(context,
-                  true); // Volta para a lista com indicação de alteração
+                  true); 
               ScaffoldMessenger.of(context).showSnackBar(
                 const SnackBar(
                     content: Text('Agendamento excluído com sucesso')),
