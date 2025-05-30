@@ -23,7 +23,7 @@ class _AgendamentosScreenState extends State<AgendamentosScreen> {
               final result =
                   await Navigator.pushNamed(context, '/novo-agendamento');
               if (result == true) {
-                setState(() {}); // Atualiza a lista
+                setState(() {}); 
               }
             },
             icon: const Icon(Icons.add),
@@ -103,7 +103,7 @@ class _AgendamentosScreenState extends State<AgendamentosScreen> {
                   arguments: agendamento,
                 );
                 if (result == true) {
-                  setState(() {}); // Atualiza a lista se houve alterações
+                  setState(() {}); 
                 }
               },
             ),
