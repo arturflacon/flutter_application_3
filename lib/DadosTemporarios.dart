@@ -40,10 +40,10 @@ class DadosTemporarios {
 
   static const Map<String, dynamic> informacoesChacara = {
     'nome': 'Chácara Recanto Verde',
-    'endereco': 'Estrada Rural, 123 - Zona Rural',
-    'cidade': 'Paranavaí - PR',
+    'endereco': 'Frente aos 3 Morrinhos',
+    'cidade': 'Terra Rica - PR',
     'capacidadeMaxima': 50,
-    'valorDiaria': 400.0,
+    'valorDiaria': 450.0,
     'comodidades': [
       'Piscina',
       'Churrasqueira',
