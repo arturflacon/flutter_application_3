@@ -1,5 +1,3 @@
-
-
 class DadosTemporarios {
   static final List<Map<String, dynamic>> agendamentos = [
     {
@@ -50,7 +48,7 @@ class DadosTemporarios {
       'Piscina',
       'Churrasqueira',
       'Salão de festas',
-      'Campo de futebol',
+      'Riacho',
       'Área verde',
       'Estacionamento'
     ],
