@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_4/AgendamentosScreen.dart';
-import 'package:flutter_application_4/DetalhesAgendamentoScreen.dart';
-import 'package:flutter_application_4/HomeScreen.dart';
-import 'package:flutter_application_4/NovoAgendamentoScreen.dart';
+import 'package:flutter_application_4/agendamentos.dart';
+import 'package:flutter_application_4/detalheagenda.dart';
+import 'package:flutter_application_4/home.dart';
+import 'package:flutter_application_4/novoagendamento.dart';
 
 void main() {
   runApp(const ChacaraApp());
