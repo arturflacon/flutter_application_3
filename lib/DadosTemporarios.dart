@@ -39,7 +39,7 @@ class DadosTemporarios {
   ];
 
   static const Map<String, dynamic> informacoesChacara = {
-    'nome': 'Chácara Recanto Verde',
+    'nome': 'Chácara Nossa Senhora De Lurdes',
     'endereco': 'Frente aos 3 Morrinhos',
     'cidade': 'Terra Rica - PR',
     'capacidadeMaxima': 50,
